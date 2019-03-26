@@ -7,8 +7,9 @@
 }
 .header {
       background: url(http://www.desktopwallpaperhd.net/wallpapers/20/d/backgrounds-wallpapers-jarzka-brown-store-ubuntu-designs-creative-vector-200749.jpg) no-repeat center center; 
+      
       background-size: cover;
-      height: 400px;
+      height: 300px;
       text-align: center; 
 }
 .container {
@@ -18,7 +19,7 @@
 }
 .header .container {
   position: relative;
-  top: 150px;
+  top: 100px;
 }
 
 .nav ul {
@@ -64,6 +65,8 @@ html, body {
 body {
   font-family: 'Roboto', sans-serif;
   font-weight: 100;
+  
+  background-color:rgba(0,0,0, 0.3);
 }
 .color2{
   background-color: black;
@@ -90,10 +93,24 @@ a:visited {
   list-style: none;
 }
 .content ul,menu,dir{
-  /*�ʿ��Ѻκ� style�� ������*/
   margin-block-start: 0px;
   margin-block-end: 0px;
   margin-inline-start: 0px;
   margin-inline-end: 0px;
   padding-inline-start: 0px;
+}
+.bigheader{
+border: 5px;
+
+background-color:rgba(255, 255, 255, 0.3); 
+
+border-color: black;
+
+border-style: solid;
+
+border-width: 0;
+
+width: 500px;
+
+margin: auto;
 }
