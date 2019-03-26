@@ -1,7 +1,6 @@
 .header h1 {
-  color: #fff;
   line-height: 100px; 
-  font-size: 80px;
+  font-size: 5vw;
   margin-top: 0;
   margin-bottom: 80px;
 }
@@ -19,7 +18,7 @@
 }
 .header .container {
   position: relative;
-  top: 100px;
+  top: 7vw;
 }
 
 .nav ul {
@@ -70,6 +69,7 @@ body {
 }
 .color2{
   background-color: black;
+  weight:100%;
 }
 a:link .container{ color: red; text-decoration: none;}
 a:visited .container{ color: white; text-decoration: none;}
@@ -110,7 +110,7 @@ border-style: solid;
 
 border-width: 0;
 
-width: 500px;
+width: 30vw;
 
 margin: auto;
 }
