@@ -18,7 +18,8 @@
 }
 .header .container {
   position: relative;
-  top: 22vh;
+  padding-top: 19vmin;
+  
 }
 
 .nav ul {
